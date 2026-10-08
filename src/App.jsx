@@ -4,6 +4,9 @@ import { useEffect } from "react";
 import Hero from "./components/Hero";
 import TrustedBy from "./components/TrustedBy";
 import Services from "./components/Services";
+import OurWork from "./components/OurWork";
+import Teams from "./components/Teams";
+import ContactUs from "./components/ContactUs";
 
 const App = () => {
   const [theme, setTheme] = useState(
@@ -24,6 +27,9 @@ const App = () => {
       <Hero />
       <TrustedBy />
       <Services />
+      <OurWork />
+      <Teams />
+      <ContactUs />
     </div>
   );
 };
